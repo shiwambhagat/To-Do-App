@@ -1,0 +1,116 @@
+/* src/TodoList.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .todo-container {
+    background: #eb7272;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(85, 77, 77, 0.1);
+    width: 600px;
+  }
+  
+  .todo-container h1 {
+    margin-top: 0;
+    font-size: 26px;
+    color: #070707;
+  }
+  
+  .todo-input {
+    display: flex;
+    margin-bottom: 22px;
+  }
+  
+  .todo-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #efd1d1;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .todo-input button {
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    background: #230cd0;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .todo-input button:hover {
+    background: #218838;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filters label {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .filters select {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .task-buttons button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .task-buttons .complete-btn {
+    background: #007bff;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .task-buttons .complete-btn:hover {
+    background: #0069d9;
+  }
+  
+  .task-buttons .remove-btn {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .task-buttons .remove-btn:hover {
+    background: #c82333;
+  }
+  
